@@ -34,7 +34,7 @@ def uploadfile():
     'rotate[1]': (None, '0'),
     'flip[1]': (None, '0'),
     'crop[1]': (None, '0,0,1,1'),
-    'template_name': (None, '682'),
+    'template_name': (None, '1001552'),
     }
     response = requests.post('http://api-soft.photolab.me/template_process.php', files=files)
     resp_body1 = response.text
@@ -44,7 +44,7 @@ def uploadfile():
     'rotate[1]': (None, '0'),
     'flip[1]': (None, '0'),
     'crop[1]': (None, '0,0,1,1'),
-    'template_name': (None, '2960'),
+    'template_name': (None, '1001547'),
     }
     response = requests.post('http://api-soft.photolab.me/template_process.php', files=files)
     resp_body2 = response.text
@@ -54,7 +54,7 @@ def uploadfile():
     'rotate[1]': (None, '0'),
     'flip[1]': (None, '0'),
     'crop[1]': (None, '0,0,1,1'),
-    'template_name': (None, '716'),
+    'template_name': (None, '1001553'),
     }
     response = requests.post('http://api-soft.photolab.me/template_process.php', files=files)
     resp_body3 = response.text
@@ -64,7 +64,7 @@ def uploadfile():
     'rotate[1]': (None, '0'),
     'flip[1]': (None, '0'),
     'crop[1]': (None, '0,0,1,1'),
-    'template_name': (None, '1994'),
+    'template_name': (None, '1001553'),
     }
     response = requests.post('http://api-soft.photolab.me/template_process.php', files=files)
     resp_body4 = response.text
@@ -74,7 +74,7 @@ def uploadfile():
     'rotate[1]': (None, '0'),
     'flip[1]': (None, '0'),
     'crop[1]': (None, '0,0,1,1'),
-    'template_name': (None, '1994'),
+    'template_name': (None, '1001554'),
     }
     response = requests.post('http://api-soft.photolab.me/template_process.php', files=files)
     resp_body5 = response.text 
